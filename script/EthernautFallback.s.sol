@@ -7,7 +7,7 @@ import {console} from "forge-std/console.sol";
 
 contract FallbackSolution is Script {
     Fallback public fallbackEthernaut =
-        Fallback(payable(0xfE500d6f4e140473aD5350e0b941847C4DaA5387));
+        Fallback(payable(0x8a98A397af8059D882065Da1A51D271C3F27Bc20));
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
