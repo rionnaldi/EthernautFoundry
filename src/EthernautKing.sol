@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 contract King {
-    address king;
-    uint256 public prize;
-    address public owner;
+    address king; // 0x473c8dF98DFd41304Bff2c5945B9f73e30f5c013 (Utilize cast storage to know)
+    uint256 public prize; // 0.001 ETH
+    address public owner; // 0x473c8dF98DFd41304Bff2c5945B9f73e30f5c013
 
     constructor() payable {
         owner = msg.sender;
